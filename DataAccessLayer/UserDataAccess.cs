@@ -24,12 +24,15 @@ namespace DataAccessLayer
             try
             {
                 //cmd.CommandType = CommandType.StoredProcedure;
-                //lConnection.Open();
+                lConnection.Open();
 
             }
             catch (SqlException error)
             {
-
+                using (StreamWriter lWriter = new StreamWriter(_FileLocation,true))
+                {
+                    lWriter.WriteLine(error.Message);
+                }
             }
         }
 
