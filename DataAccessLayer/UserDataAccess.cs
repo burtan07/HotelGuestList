@@ -27,7 +27,7 @@ namespace DataAccessLayer
                 lConnection.Open();
 
             }
-            catch (SqlException error)
+            catch ()
             {
                 using (StreamWriter lWriter = new StreamWriter(_FileLocation,true))
                 {
