@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel", "MVCsetup\Hotel.csproj", "{40B519E5-AAAF-4395-9026-24085E6751AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{995D0AD6-0C18-49E1-941B-BD9F6EA500E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{859FF7DC-7297-47D6-80D2-F4EA8CFC8482}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40B519E5-AAAF-4395-9026-24085E6751AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B519E5-AAAF-4395-9026-24085E6751AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B519E5-AAAF-4395-9026-24085E6751AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B519E5-AAAF-4395-9026-24085E6751AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{995D0AD6-0C18-49E1-941B-BD9F6EA500E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995D0AD6-0C18-49E1-941B-BD9F6EA500E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995D0AD6-0C18-49E1-941B-BD9F6EA500E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995D0AD6-0C18-49E1-941B-BD9F6EA500E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{859FF7DC-7297-47D6-80D2-F4EA8CFC8482}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859FF7DC-7297-47D6-80D2-F4EA8CFC8482}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859FF7DC-7297-47D6-80D2-F4EA8CFC8482}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859FF7DC-7297-47D6-80D2-F4EA8CFC8482}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

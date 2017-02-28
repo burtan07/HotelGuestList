@@ -1,0 +1,145 @@
+﻿@model Hotel.Models.UserViewModel
+@{
+    ViewBag.Title = "RegisterUser";
+}
+
+<h2>Register</h2>
+
+@using (Html.BeginForm("RegisterUser", "User", FormMethod.Post))
+{
+    <div class="DivTextBoxPosition">
+
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.FirstName)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.FirstName)
+            </div>
+        </div>
+
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.LastName)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.LastName)
+            </div>
+        </div>
+
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.EmailAddress)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.EmailAddress)
+            </div>
+        </div>
+
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.BirthDate)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.BirthDate)
+            </div>
+        </div>
+
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.StreetAddress)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.StreetAddress)
+            </div>
+        </div>
+
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.City)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.City)
+            </div>
+        </div>
+
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.State)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.State)
+            </div>
+        </div>
+
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.ZipCode)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.ZipCode)
+            </div>
+        </div>
+
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.PhoneNumber)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.PhoneNumber)
+            </div>
+        </div>
+
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.SecurityQuestion)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.DropDownListFor(m => m.User.SecurityQuestion, new List<SelectListItem> {
+                        new SelectListItem {Text=" -- " },
+                        new SelectListItem {Text="What is your mother's maiden name?" },
+                        new SelectListItem {Text="What city were you born in?" },
+                        new SelectListItem {Text="What year did you graduate high school?" } })
+                       
+            </div>
+        </div>
+
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.SecurityAnswer)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.SecurityAnswer)
+            </div>
+        </div>
+
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.UserName)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.UserName)
+            </div>
+        </div>
+
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.Password)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.Password)
+            </div>
+        </div>
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.UserPin)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.UserPin)
+            </div>
+        </div>
+        
+            <input type="submit" value="Submit" />
+        
+    </div>
+}

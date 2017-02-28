@@ -1,0 +1,20 @@
+﻿.DivTextBoxPos {
+    width: 150px;
+    margin-left: 130px;
+}
+
+.DivTextBoxPosition{
+    text-align: center;
+    margin-top: 100px;
+   
+}
+ .DivTextBoxPosition label{
+     float: left;
+
+ }
+.LabelSpacing{
+    width: 20px;
+}
+.DivSubmitButton{
+    /*margin-left: 80px;*/
+}

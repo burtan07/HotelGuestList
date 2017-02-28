@@ -1,0 +1,41 @@
+﻿@model Hotel.Models.UserViewModel
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm("Login", "User", FormMethod.Post))
+{
+    <div class="DivTextBoxPosition">
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.UserName)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.UserName)
+            </div>
+        </div>
+
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.Password)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.Password)
+            </div>
+        </div>
+
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.UserPin)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.UserPin)
+            </div>
+        </div>
+        <div class="DivSubmitButton">
+            <input type="submit" value="Submit" />
+            </div>
+        </div>
+}
