@@ -27,7 +27,7 @@ namespace DataAccessLayer
                 //lConnection.Open();
 
             }
-            catch ()
+            catch (SqlException error)
             {
 
             }
