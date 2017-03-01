@@ -35,7 +35,7 @@ namespace BusinessLogicLayer
             return daUser;
         }
 
-        public void CreateUser(LogicUser boUser)  //Maps BOuser to DAuser & sends down to DAL
+        public void CreateUser(LogicUser boUser)  //Calls Mapper BOuser to DAuser & sends down to DAL
         {
             DataUser daUser = Map(boUser);
             _userDAL.CreateUser(daUser);
