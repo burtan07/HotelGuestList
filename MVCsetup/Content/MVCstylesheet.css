@@ -1,6 +1,7 @@
 ﻿.DivTextBoxPos {
     width: 150px;
     margin-left: 130px;
+    margin-top: 2px;
 }
 
 .DivTextBoxPosition{
@@ -16,5 +17,7 @@
     width: 20px;
 }
 .DivSubmitButton{
-    /*margin-left: 80px;*/
+    float: left;
+    margin-left: 180px;
+    margin-top: 6px;
 }

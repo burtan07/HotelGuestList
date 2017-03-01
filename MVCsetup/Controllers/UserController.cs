@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using MVCsetup.Models;
+using Hotel.Models;
 using BusinessLogicLayer;
 using BusinessLogicLayer.BusinessObjects;
 
