@@ -29,7 +29,10 @@ namespace DataAccessLayer
             }
             catch (SqlException error)
             {
+                using (StreamWriter lWriter = new StreamWriter(_FileLocation, true))
+                {
 
+                }
             }
         }
 
