@@ -21,3 +21,12 @@
     margin-left: 180px;
     margin-top: 6px;
 }
+.Header{
+    text-align: center;
+    font-family: "Libre Baskerville","Palatino,Georgia",serif;
+}
+.Calendar{
+    float:right;
+       margin-top: 10px;
+       margin-right: 100px;
+}

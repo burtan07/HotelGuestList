@@ -127,7 +127,7 @@
                 @Html.LabelFor(m => m.User.Password)
             </div>
             <div class="DivTextBoxPos">
-                @Html.TextBoxFor(m => m.User.Password)
+                @Html.TextBoxFor(m => m.User.Password, new { @class = "form-control", placeholder = "Password", @type = "password" })
             </div>
         </div>
         <div>
@@ -135,7 +135,7 @@
                 @Html.LabelFor(m => m.User.UserPin)
             </div>
             <div class="DivTextBoxPos">
-                @Html.TextBoxFor(m => m.User.UserPin)
+                @Html.TextBoxFor(m => m.User.UserPin, new { @class = "form-control", placeholder = "UserPin", @type = "password" })
             </div>
         </div>
         <div class="DivSubmitButton">
