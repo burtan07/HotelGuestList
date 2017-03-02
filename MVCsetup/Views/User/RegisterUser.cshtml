@@ -27,6 +27,7 @@
             </div>
         </div>
 
+
         <div>
             <div class="LabelSpacing">
                 @Html.LabelFor(m => m.User.EmailAddress)
@@ -100,7 +101,7 @@
                         new SelectListItem {Text="What is your mother's maiden name?" },
                         new SelectListItem {Text="What city were you born in?" },
                         new SelectListItem {Text="What year did you graduate high school?" } })
-                       
+
             </div>
         </div>
 
@@ -138,8 +139,16 @@
                 @Html.TextBoxFor(m => m.User.UserPin, new { @class = "form-control", placeholder = "UserPin", @type = "password" })
             </div>
         </div>
-        <div class="DivSubmitButton">
-            <input type="submit" value="Submit" />
+        <div>
+            <div class="LabelSpacing">
+                @Html.LabelFor(m => m.User.UserRole)
+            </div>
+            <div class="DivTextBoxPos">
+                @Html.TextBoxFor(m => m.User.UserRole)
             </div>
         </div>
+        <div class="DivSubmitButton">
+            <input type="submit" value="Submit" />
+        </div>
+    </div>
 }

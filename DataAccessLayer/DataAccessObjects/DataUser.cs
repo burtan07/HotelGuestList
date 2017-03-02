@@ -14,6 +14,7 @@ namespace DataAccessLayer.DataAccessObjects
         public string Password { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string UserRole { get; set; }
         public string EmailAddress { get; set; }
         public DateTime BirthDate { get; set; }
         public string StreetAddress { get; set; }

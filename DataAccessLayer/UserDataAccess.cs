@@ -39,6 +39,7 @@ namespace DataAccessLayer
                 cmd.Parameters.AddWithValue("@PhoneNumber", daUser.PhoneNumber);
                 cmd.Parameters.AddWithValue("@SecurityQuestion", daUser.SecurityQuestion);
                 cmd.Parameters.AddWithValue("@SecurityAnswer", daUser.SecurityAnswer);
+                cmd.Parameters.AddWithValue("@UserRole", daUser.UserRole);
 
                 cmd.ExecuteNonQuery();
                 

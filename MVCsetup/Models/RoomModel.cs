@@ -17,5 +17,6 @@ namespace Hotel.Models
         public string RoomType { get; set; }
         public bool Smoking { get; set; }
         public bool Pets { get; set; }
+        public bool Available { get; set; }
     }
 }

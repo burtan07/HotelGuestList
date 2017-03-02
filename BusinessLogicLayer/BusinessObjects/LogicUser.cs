@@ -14,6 +14,7 @@ namespace BusinessLogicLayer.BusinessObjects
         public string Password { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string UserRole { get; set; }
         public string EmailAddress { get; set; }
         public DateTime BirthDate { get; set; }
         public string StreetAddress { get; set; }
@@ -23,5 +24,6 @@ namespace BusinessLogicLayer.BusinessObjects
         public string PhoneNumber { get; set; }
         public string SecurityQuestion { get; set; }
         public string SecurityAnswer { get; set; }
+      
     }
 }
