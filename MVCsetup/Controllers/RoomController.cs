@@ -26,6 +26,7 @@ namespace Hotel.Controllers
         [HttpPost]
         public ActionResult UpdateRoomReserve(RoomViewModel RoomVM)
         {
+
             return View();
         }
     }
