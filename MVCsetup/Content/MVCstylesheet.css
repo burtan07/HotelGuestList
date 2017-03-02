@@ -30,3 +30,10 @@
        margin-top: 10px;
        margin-right: 100px;
 }
+#User_SecurityQuestion{
+    border-radius: 4px;
+    height: 34px;
+    padding: 6px 12px;
+    vertical-align: middle;
+    
+}

@@ -8,7 +8,7 @@ using BusinessLogicLayer;
 using BusinessLogicLayer.BusinessObjects;
 
 
-namespace MVCsetup.Controllers
+namespace Hotel.Controllers
 {
     public class UserController : Controller
     {
